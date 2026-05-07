@@ -26,10 +26,6 @@ class ClapTrap
         void beRepaired(unsigned int amount);
 
 
-
-
-
-
 };
 
 #endif
