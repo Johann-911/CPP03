@@ -42,7 +42,7 @@ void ClapTrap::attack(const std::string& target)
 {
     if(_hitPoints <= 0 || _energyPoints <= 0)
     {
-        std::cout << "ClapTrap " << _name << " can't get attacked because it has not enough hit points or energy points left." << std::endl;
+        std::cout << "ClapTrap " << _name << " can't attack because it has no hit points or energy points left." << std::endl;
         return;
     }
     _energyPoints--;
