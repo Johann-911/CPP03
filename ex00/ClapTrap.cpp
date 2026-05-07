@@ -9,7 +9,7 @@ ClapTrap::ClapTrap() : _name("Unnamed") , _hitPoints(10) , _energyPoints(10) , _
 //Constructor
 ClapTrap::ClapTrap(std::string name) : _name(name) , _hitPoints(10) , _energyPoints(10) , _attackDamage(0)
 {
-    std::cout << "ClapTrap " << _name << " is called" << std::endl;
+    std::cout << "ClapTrap " << _name << "  constructor is called" << std::endl;
 }
 
 //Copy Constructor 
@@ -19,6 +19,7 @@ ClapTrap::ClapTrap(const ClapTrap &copy)
     std::cout << "ClapTrap " << _name << " Copy constructor called" << std::endl;
 }
 
+//Copy assigment
 ClapTrap &ClapTrap::operator=(const ClapTrap &copy)
 {
     std::cout << "ClapTrap " << _name << " Copy assignment constructor called" << std::endl;
